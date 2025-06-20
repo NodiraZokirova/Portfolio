@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    background-color: #f9f9f9;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #111;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    position: fixed;
+  }
+  
+  .sidebar .logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .sidebar nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    margin-left: 220px;
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+  }
+  
+  .profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2rem;
+    background: #ccc;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .intro {
+    max-width: 500px;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+  }
+  
+  .intro h2 {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+  }
+  
+  .download-btn {
+    padding: 0.7rem 1.5rem;
+    border: 1px solid #111;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #111;
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .view-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.2rem;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  .view-btn:hover {
+    background: #444;
+  }
